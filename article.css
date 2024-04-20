@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0),rgb(0,0,0,0)),url('acc1.png');
+    background-size: cover;
+    background-position: center ;
+    padding: 10px 8px;
+}
+h2 a{
+    color: #000;
+    text-decoration: none;
+}
+h2 :hover{
+    cursor: pointer ; 
+    color: #fff;
+    
+}
+.container #id1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 300px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    border: 100px 20px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #080101;
+    background-color: #e6eaec;
+}
+
+nav ul li a:hover {
+    color: #f5168d;
+}
+.text-overlay{
+    background-color: beige;
+}
+.text-overlay h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.text-overlay h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.text-overlay h3{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.text-overlay p {
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 80%;
+}
+footer {
+    background-color: #343434;
+    padding-top: 50px;
+}
+
+.footer {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.footer-content {
+    text-align: center;
+    color: white;
+    margin-right: 50px;
+}
+
+.footer-cont {
+    display: flex;
+    color: white;
+    list-style: none;
+}
+
+.footer-cont h3 {
+    margin-right: 30px;
+}
+
+.footer-cont li {
+    margin-right: 50px;
+}
+
+.footer-cont i {
+    color: white;
+    font-size: 25px;
+}
+
+.footer-cont i:hover {
+    color: #f5168d;
+}
+
+.bottom-bar p {
+    text-align: center;
+    color: white;
+    top: 80%;
+}
